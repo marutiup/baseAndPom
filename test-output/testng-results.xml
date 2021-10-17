@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-10T16:31:39Z" name="Default suite" finished-at="2021-10-10T16:32:50Z" duration-ms="71038">
+    <groups>
+    </groups>
+    <test started-at="2021-10-10T16:31:39Z" name="Default test" finished-at="2021-10-10T16:32:50Z" duration-ms="71038">
+      <class name="com.sriram.project.SeleniumTestUsingTestNG">
+        <test-method is-config="true" signature="beforeStart()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:01:38Z" name="beforeStart" finished-at="2021-10-10T22:01:39Z" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeStart -->
+        <test-method signature="navigateAndGetTitle()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:01:39Z" name="navigateAndGetTitle" finished-at="2021-10-10T22:01:57Z" duration-ms="17662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateAndGetTitle -->
+        <test-method signature="login()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:01:57Z" name="login" finished-at="2021-10-10T22:02:07Z" depends-on-methods="com.sriram.project.SeleniumTestUsingTestNG.navigateAndGetTitle" duration-ms="10214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="creativeTab()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:02:07Z" name="creativeTab" finished-at="2021-10-10T22:02:09Z" depends-on-methods="com.sriram.project.SeleniumTestUsingTestNG.login" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creativeTab -->
+        <test-method signature="getImageNameAndCheckDuplicate()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:02:09Z" name="getImageNameAndCheckDuplicate" finished-at="2021-10-10T22:02:19Z" depends-on-methods="com.sriram.project.SeleniumTestUsingTestNG.creativeTab" duration-ms="10106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getImageNameAndCheckDuplicate -->
+        <test-method signature="createBoard()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:02:19Z" name="createBoard" finished-at="2021-10-10T22:02:22Z" depends-on-methods="com.sriram.project.SeleniumTestUsingTestNG.getImageNameAndCheckDuplicate" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method signature="addImageAndVerify()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:02:22Z" name="addImageAndVerify" finished-at="2021-10-10T22:02:50Z" depends-on-methods="com.sriram.project.SeleniumTestUsingTestNG.createBoard" duration-ms="28499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImageAndVerify -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.sriram.project.SeleniumTestUsingTestNG@5ab956d7]" started-at="2021-10-10T22:02:50Z" name="end" finished-at="2021-10-10T22:02:51Z" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.sriram.project.SeleniumTestUsingTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
