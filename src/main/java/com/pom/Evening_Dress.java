@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class Evening_Dress {
 	
 	public  WebDriver driver;
-	@FindBy(xpath="//a[normalize-space()='Dresses'])[2]")
+	@FindBy(xpath="(//a[normalize-space()='Dresses'])[2]")
 	private WebElement dress;
-	@FindBy(xpath="//a[text()='Evening Dresses'])[2]")
+	@FindBy(xpath="(//a[text()='Evening Dresses'])[2]")
 	private WebElement eveningDress;
 	@FindBy(xpath="//img[@title='Printed Dress']")
 	private WebElement dressImage;
